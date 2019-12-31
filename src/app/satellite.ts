@@ -11,4 +11,12 @@ export class Satellite {
         this.operational = operational
         this.launchDate = launchDate
     }
+    shouldShowWarning(){
+        let lcType = this.type.toLowerCase()
+        if (lcType === 'space debris'){
+            return true
+        } else {
+            return false
+        }
+    }
 }
