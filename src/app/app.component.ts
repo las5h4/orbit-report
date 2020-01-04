@@ -9,6 +9,7 @@ import { Satellite } from './satellite';
   
 })
 export class AppComponent {
+  totCount = 9
   sourceList: Satellite[]
   displayList: Satellite[]
   constructor() {
